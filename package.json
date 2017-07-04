@@ -1,23 +1,28 @@
 {
-  "name": "webpack-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^0.28.4",
-    "csv-loader": "^2.1.1",
-    "file-loader": "^0.11.2",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.0.0",
-    "xml-loader": "^1.2.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4"
-  }
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "rimraf dist && webpack && serve",
+        "dev": "rimraf dist && webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chunk-manifest-webpack-plugin": "^1.1.0",
+        "css-loader": "^0.28.4",
+        "csv-loader": "^2.1.1",
+        "file-loader": "^0.11.2",
+        "html-webpack-plugin": "^2.29.0",
+        "rimraf": "^2.6.1",
+        "style-loader": "^0.18.2",
+        "webpack": "^3.0.0",
+        "webpack-dev-server": "^2.5.0",
+        "xml-loader": "^1.2.1"
+    },
+    "dependencies": {
+        "lodash": "^4.17.4"
+    }
 }
