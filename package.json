@@ -8,6 +8,7 @@
   "author": "author <author@corpmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.5.5"
   }
 }
