@@ -1,0 +1,13 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "author <author@corpmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
